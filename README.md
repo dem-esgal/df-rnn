@@ -16,5 +16,6 @@ Solution for higher education prediction could be found in main_education.py
 
 ## Dependencies
 pip install pipenv
+
 python -m pipenv install Pipfile
 

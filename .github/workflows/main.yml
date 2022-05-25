@@ -19,4 +19,6 @@ jobs:
     - name: Test with pytest
       run: |
         pipenv run coverage run
-        pipenv run coverage report
+        pipenv run coverage xml
+      with:
+        path-to-lcov: coverage.xml
